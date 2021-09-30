@@ -34,7 +34,7 @@ def find_empty(bo):
 	for i in range(len(bo)):
 		for j in range(len(bo[0])):
 			if bo[i][j]==0:
-				 return (i, j) #row, col ... usually he says it's col, row(in porgramming?)
+				return (i, j) #row, col ... usually he says it's col, row(in porgramming?)
 	return none
 #try and except?
 #backtracking? (Tech W Tim)
